@@ -1,0 +1,9 @@
+git checkout nome_da_branch  ->  altera a branch
+
+ex:
+git checkout main -> alterar diretório para as configurações da branch main
+
+git checkout developer -> altera diretório para as configurações da branch developer
+
+
+
