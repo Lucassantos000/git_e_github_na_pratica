@@ -1,4 +1,3 @@
-
 1 Clonar o Repositório (Se Ainda Não Clonou):
 
 bash:
@@ -62,4 +61,8 @@ git push origin main
 
 ****
 Esses passos representam um fluxo de trabalho típico usando as branches main e developer para desenvolvimento e manutenção de software. Lembre-se de sempre manter a comunicação com sua equipe para garantir que todos estejam sincronizados e para evitar conflitos no repositório.
+
+***
+é possível comparar o conteúdo de duas branchs usando o comando:
+git diff branch1 branch2
 
