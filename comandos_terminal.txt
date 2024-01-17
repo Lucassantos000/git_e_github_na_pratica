@@ -1,0 +1,30 @@
+start noteád -> abre o bloco de notas
+
+windows:
+cls - limpar tela
+cd - change directory - mudar de diretorio
+ex:{
+cd ./
+cd ..
+cd /
+cd desktop/code/html/
+cd + d(ctrl + tab) completa o nome do diretorio
+}
+dir - listar diretírio
+mkdir - make directory - criar diretório
+echo - comando para falar ou criar arquivo
+(echo lucas - imprime lucas no cli)
+(echo 'escrevaalgumacoisa' > lucas.txt - cria o arquivo com extensão txt chamado lucas com a frsase 'alguma coisa')
+del / rmdir - 
+
+del 'nome_do_arquivo' ou del 'nome_do_repositorio' -> delete -> deletar o arquivo especificado ou todos os aruqivos dentro do diretório especificado
+rmdir -> remove directory -> remover diretório
+
+[se estiver com dúvidas digite o nome do comando e em seguida /?] -> comando para ajuda no terminal
+
+linux:
+clear ou (ctrl + l) - limpar tela
+cd - change directory - mudar diretório
+ls - list - listar diretório
+mkdir - make directory - criar diretorio
+rm - rf

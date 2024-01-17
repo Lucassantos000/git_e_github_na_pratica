@@ -1,0 +1,23 @@
+
+Comandos:
+git init - iniciar um repositório
+git add - mover arquivos 
+git commit - commita o código
+
+todo comando o git necessita da palavra 'git' no início do comando, o terminal busca em 'path' onde está localizada o execultável deste comando
+
+______________
+
+O passo inicial para instanciar um repositório no git a partir do desktop é necessário 
+1º Criar a pasta
+2º Instanciar o comando git init
+/* Assim que o comando 'git init' é execultado o git cria uma pasta
+ .git/ (extenção oculta) dentro do repositório, lá ficará outras pastas que 
+irão servir para gerenciar o diretório, logo a pasta './git' é uma pasta gerencial*/
+(para verificar você pode usar o 'ls -a' )
+ 
+______HORA DE CONFIGURAR O DIRETÓRIO____ /CONFIGURAR O USUÁRIO/
+3º git config --global user.email "lucasnapsistema@gmail.com"
+4ª git config --global user.name lucas_santos
+
+______CRIANDO UM ARQUIVO______(NESTA PARTE PODE CRIAR UM ARQUIVO QUALQUER)

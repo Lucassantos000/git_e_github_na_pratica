@@ -1,0 +1,38 @@
+instalando_o_git 
+
+
+Comandos Linux:
+
+sudo add-apt-repository ppa:git-core/ppa -y
+
+sudo apt update
+
+sudo apt install git
+
+SHA1 ->
+algoritmo de encriptação  (algoritmo de hash seguro)
+representa um arquivo de texto  em 40 caracteres - qualuqer mudaça do arquivo original altera também os caracteres
+
+
+github	
+.env.senha
+
+chave ssh
+openssl sha1 aula_instalando_o_git.txt
+
+comandos -\> passo a passo
+=CRIAR CHAVE =
+#essa chave (par de chave) e o modo de comnicacao com o github com a maqina do usuario  
+ssh-keygen -t ed25519 -C email_usuario
+#será necessário informar uma senha após o código acima
+
+cd C:\Users\INFO_STORE_NITRO\ssh
+cat id_ed25519.pub
+(mostra o valor da chave ssh) 
+
+=INCIALIZAR CHAVE
+
+eval $(ssh-agent -s)   -saída no console> Agent pid 972
+ssh-add id_ed25519  (irá adcionar a chave em execução e irá pedir a senha em seguida) 
+
+

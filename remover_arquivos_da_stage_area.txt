@@ -1,0 +1,1 @@
+git rm --cached *  -> remove todos os arquivos da estage área

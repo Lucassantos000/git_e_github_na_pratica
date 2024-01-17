@@ -1,0 +1,45 @@
+1CRIE UM BRANCH
+
+# Certifique-se de estar na branch main
+$ git checkout main
+
+# Crie um novo branch chamado 'developer'
+$ git branch developer
+
+# Alternativamente, você pode criar e mudar para o novo branch ao mesmo tempo
+$ git checkout -b developer
+
+
+2 FAZER ALTERAÇÕES NA BRANCH
+
+# Faça as alterações nos arquivos
+$ echo "Nova funcionalidade" >> exemplo.txt
+
+# Adicione as alterações ao staging area
+$ git add exemplo.txt
+
+# Faça um commit
+$ git commit -m "Adiciona nova funcionalidade"
+
+3 ALTERNE ENTRE BRANCHS
+
+# Mude para o branch 'main'
+$ git checkout main
+
+# Faça alterações no branch 'main' se necessário
+$ echo "Correção de bug" >> exemplo.txt
+$ git add exemplo.txt
+$ git commit -m "Corrige bug"
+
+# Volte para o branch 'developer'
+$ git checkout developer
+
+4 MESCLE AS ALTERAÇÕES 
+
+# Mude para o branch 'main'
+$ git checkout main
+
+# Mesclar as alterações de 'developer' para 'main'
+$ git merge developer
+
+
