@@ -1,0 +1,64 @@
+1 Clonar o Repositório (Se Ainda Não Clonou):
+
+bash:
+git clone [URL do Repositório]
+
+
+2. Mudar para a Branch developer:
+	
+	Navegue até o diretório do repositório clonado.
+
+	Verifique as branches disponíveis com git branch -a.
+
+	Mude para a branch developer:
+
+bash:
+git checkout developer
+
+3. Atualizar a Branch developer:
+
+	Certifique-se de que a branch developer está atualizada com a main.
+bash:
+git pull origin main
+
+4. Criar uma Nova Branch para o Trabalho Específico (Opcional):		
+	Crie uma nova branch a partir da developer para trabalhar em uma tarefa específica.
+bash:
+git checkout -b feature/nome-da-feature
+
+5. Fazer Alterações nos Arquivos:
+	Realize as alterações necessárias nos arquivos do projeto.
+
+6. Adicionar as Alterações:
+	Adicione as alterações ao staging area.
+
+bash:
+git add .
+
+7. Commit das Alterações:
+	Faça um commit das suas alterações com uma mensagem descritiva.
+bash:
+git commit -m "Descrição das alterações realizadas"
+
+8. Atualizar a Branch developer (Se Criou uma Nova Branch):
+	Mude de volta para a branch developer e faça merge das alterações da sua nova branch.
+bash:
+git checkout developer
+git merge feature/nome-da-feature
+
+9. Enviar as Alterações para o Repositório Remoto:
+	Faça push das suas alterações na branch developer para o repositório remoto.
+bash:
+git push origin developer
+
+10. Merge com a Branch main (Se Apropriado):
+	Depois de revisar e testar as alterações na branch developer, você pode fazer merge delas na branch 'main'
+bash:
+git checkout main
+git merge developer
+git push origin main
+
+
+****
+Esses passos representam um fluxo de trabalho típico usando as branches main e developer para desenvolvimento e manutenção de software. Lembre-se de sempre manter a comunicação com sua equipe para garantir que todos estejam sincronizados e para evitar conflitos no repositório.
+
